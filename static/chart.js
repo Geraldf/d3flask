@@ -53,7 +53,7 @@ d3.json("static/data.json").then(function(data) {
     .append("rect")
     .attr("class", "bar")
     .attr("x", function(d) {
-      return x(d.calls.callcount);
+      return x(d.date);
     })
     .attr("y", function(d) {
       return y(Number(d.calls.callcount));
