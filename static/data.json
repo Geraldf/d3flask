@@ -1,7 +1,39 @@
 {
-  "data": [
-    { "date": "1.1.2019", "calls": { "callcount": 22, "calltime": 1234 } },
-    { "date": "2.1.2019", "calls": { "callcount": 33, "calltime": 2222 } },
-    { "date": "3.1.2019", "calls": { "callcount": 44, "calltime": 1333 } }
+  "Data": [
+    {
+      "Calls": {
+        "CallCount": 199, 
+        "CallDuration": 26837
+      }, 
+      "Date": "09/12/2019"
+    }, 
+    {
+      "Calls": {
+        "CallCount": 147, 
+        "CallDuration": 23211
+      }, 
+      "Date": "10/12/2019"
+    }, 
+    {
+      "Calls": {
+        "CallCount": 172, 
+        "CallDuration": 26767
+      }, 
+      "Date": "11/12/2019"
+    }, 
+    {
+      "Calls": {
+        "CallCount": 152, 
+        "CallDuration": 23086
+      }, 
+      "Date": "12/12/2019"
+    }, 
+    {
+      "Calls": {
+        "CallCount": 68, 
+        "CallDuration": 10829
+      }, 
+      "Date": "13/12/2019"
+    }
   ]
 }

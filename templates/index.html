@@ -7,9 +7,30 @@
 
 
 </head>
+
 <body>
-    <svg height=600 width= 800></svg>
-<script src="{{ url_for('static', filename='chart.js') }}"></script>
+
+
+
+    <ul class="navigation">
+
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="content">
+        <div class="break"></div>
+        <div class="Colheader">TUT ServiceDesk Call Statisics</div>
+        <div id="Part1">
+
+            <svg height=400 width=500>
+
+            </svg></div>
+
+        <div id="Part2"> <svg height=400 width=500></svg></div>
+    </div>
+    <script src="{{ url_for('static', filename='chart.js') }}"></script>
+    <!-- <script src="{{ url_for('static', filename='chart2.js') }}"></script> -->
 </body>
 
 </html>

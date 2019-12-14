@@ -1,4 +1,4 @@
-var svg = d3.select("#Part2").select("svg"),
+var svg2 = d3.select("#Part2").select("svg"),
   margin = {
     top: 20,
     right: 20,
@@ -8,7 +8,7 @@ var svg = d3.select("#Part2").select("svg"),
   width = +svg.attr("width") - margin.left - margin.right,
   height = +svg.attr("height") - margin.top - margin.bottom,
   padding = 20,
-  g = svg
+  g = svg2
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
