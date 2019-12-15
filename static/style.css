@@ -24,6 +24,8 @@ body {
 }
 .Colheader {
   flex-basis: 100%;
+  font-size: 22px;
+  
 }
 .content {
   margin: 0;
